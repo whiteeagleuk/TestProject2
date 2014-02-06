@@ -12,6 +12,7 @@ namespace TestProject2
         protected void Page_Load(object sender, EventArgs e)
         {
             Response.Write("Test Project 2");
+            Response.exception;
         }
     }
 }
